@@ -1,0 +1,20 @@
+spring:
+    profiles:
+    active:
+    - dev
+---
+spring:
+    profiles: dev  #开发环境
+    application:
+        name: jiankangke-config-dev
+---
+server:
+    port: 8202
+spring:
+    profiles:test
+    application:
+    name: jiankangke-config-client
+eureka:
+    client:
+        service-url:
+        defaultZone: http://eureka-test.com:7001/eureka/
