@@ -16,5 +16,5 @@ spring:
     name: jiankangke-config-client
 eureka:
     client:
-        service-url :
+        service-url:
             defaultZone: http://eureka-test.com:7001/eureka/
